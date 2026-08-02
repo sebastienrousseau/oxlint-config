@@ -1,6 +1,6 @@
 {
   "name": "@sebastienrousseau/oxlint-config",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Shareable Oxlint configuration rules for 50x–100x faster Rust-powered JS/TS linting.",
   "author": "Sebastien Rousseau <sebastienrousseau@users.noreply.github.com>",
   "license": "ISC",
