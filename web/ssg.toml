@@ -1,0 +1,16 @@
+site_name = "oxlint-config"
+site_title = "@sebastienrousseau/oxlint-config — Shareable Oxlint configuration rules for 50x–100x faster Rust-powered JS/TS linting."
+site_description = "Shareable Oxlint configuration rules for 50x–100x faster Rust-powered JS/TS linting."
+base_url = "https://config.sebastienrousseau.com/oxlint-config"
+language = "en-GB"
+
+content_dir = "web/content"
+template_dir = "web/_layouts"
+output_dir = "public"
+
+[agents]
+agents_txt = true
+ai_plugin = true
+
+[agents.mcp]
+enabled = true
