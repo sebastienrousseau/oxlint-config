@@ -1,7 +1,7 @@
 {
   "name": "@sebastienrousseau/oxlint-config",
   "version": "0.0.3",
-  "description": "Shareable Oxlint configuration rules for 50x\u2013100x faster Rust-powered JS/TS linting.",
+  "description": "Shareable Oxlint configuration rules for 50x–100x faster Rust-powered JS/TS linting.",
   "author": "Sebastien Rousseau <sebastienrousseau@users.noreply.github.com>",
   "license": "Apache-2.0 OR MIT",
   "homepage": "https://github.com/sebastienrousseau/oxlint-config#readme",
@@ -43,6 +43,7 @@
   },
   "scripts": {
     "test": "node test/test.js",
-    "lint": "node test/test.js"
+    "lint": "node test/test.js",
+    "docs:build": "bash scripts/build-docs.sh"
   }
 }
