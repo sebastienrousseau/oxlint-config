@@ -1,3 +1,6 @@
+// SPDX-FileCopyrightText: 2026 Sebastien Rousseau <sebastian.rousseau@gmail.com>
+// SPDX-License-Identifier: Apache-2.0 OR MIT
+
 /**
  * 100% Feature Showcase for @sebastienrousseau/oxlint-config
  */
@@ -6,7 +9,9 @@ const assert = require("assert");
 
 console.log("=== 100% Feature Showcase: @sebastienrousseau/oxlint-config ===");
 assert(typeof config.$schema === "string");
-assert(config.plugins.includes("typescript") && config.plugins.includes("unicorn"));
+assert(
+  config.plugins.includes("typescript") && config.plugins.includes("unicorn"),
+);
 assert.strictEqual(config.categories.correctness, "warn");
 assert.strictEqual(config.categories.perf, "error");
 

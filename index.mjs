@@ -1,17 +1,14 @@
+// SPDX-FileCopyrightText: 2026 Sebastien Rousseau <sebastian.rousseau@gmail.com>
+// SPDX-License-Identifier: Apache-2.0 OR MIT
+
 /**
- * Modern Oxlint ESM Configuration
+ * ESM entrypoint.
+ *
+ * The configuration is defined once, in `index.cjs`, and re-exported here so the
+ * two module systems cannot drift apart. Node resolves a CommonJS default import
+ * to `module.exports`, which is exactly the value consumers of the CJS entry get.
  */
-export default {
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["typescript", "import", "unicorn"],
-  "categories": {
-    "correctness": "warn",
-    "perf": "error"
-  },
-  "rules": {
-    "eqeqeq": "error",
-    "no-console": "off",
-    "no-debugger": "error",
-    "no-unused-vars": "error"
-  }
-};
+
+import config from "./index.cjs";
+
+export default config;
