@@ -21,14 +21,18 @@ An exhaustive overview covering **100% of the features, rules, and capabilities*
 ## Feature Deep Dive
 
 ### 1. Schema Conformance
+
 Validates against Oxlint schema (`$schema`). Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
 ### 2. Plugin Ecosystem
+
 Equipped with TypeScript, Import, and Unicorn plugins. Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
 ### 3. Category Activation
+
 Enables correctness (warn) and performance (error) diagnostic categories. Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
 ### 4. Strict Diagnostics
+
 Enforces strict equality and clean variable lifecycles. Designed to guarantee deterministic behavior across all development and continuous integration environments.
 
