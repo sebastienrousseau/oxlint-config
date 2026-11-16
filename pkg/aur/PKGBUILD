@@ -1,6 +1,6 @@
 # Maintainer: Sebastien Rousseau <sebastian.rousseau@gmail.com>
 pkgname=nodejs-sebastienrousseau-oxlint-config
-pkgver=0.0.7
+pkgver=0.0.9
 pkgrel=1
 pkgdesc="Shareable Oxlint configuration rules for 50x–100x faster Rust-powered JS/TS linting"
 arch=('any')
