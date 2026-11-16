@@ -6,7 +6,7 @@
 class OxlintConfig < Formula
   desc "Shareable Oxlint configuration rules for 50x–100x faster Rust-powered JS/TS linting"
   homepage "https://github.com/sebastienrousseau/oxlint-config"
-  url "https://registry.npmjs.org/@sebastienrousseau/oxlint-config/-/oxlint-config-0.0.7.tgz"
+  url "https://registry.npmjs.org/@sebastienrousseau/oxlint-config/-/oxlint-config-0.0.9.tgz"
   license any_of: ["Apache-2.0", "MIT"]
 
   depends_on "node"
